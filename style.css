@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(142, 218, 195);
+    font-family: "Comfortaa", sans-serif;
+}
+.top{
+
+    border-radius: 2px;
+}
+.texts{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: larger;
+}
+.textb{
+    margin-top: -10px;
+}
+.categories{
+    height: 30px;
+    border-top: 3px black solid;
+    overflow: hidden;
+}
+.holder {
+  display: flex;
+}
+.AboutMe,.Hobbies,.Skills,.Education {
+  width: 125px;
+  color: black;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  font-size: large;
+  
+}
+.content {
+  height: 100px;
+  border-top: 3px black solid;
+  margin-top: 10px;
+  padding: 10px;
+  display: none;
+  text-align: center;
+}
+
+.h1s{
+    font-size: 50px;
+}
+.textt{
+  font-size: larger;
+}
+.AboutMe:hover,.Hobbies:hover,.Skills:hover,.Education:hover{
+  color: brown;
+}
